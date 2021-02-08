@@ -1,6 +1,23 @@
+// ALARCON VICTOR ALEJANDRO
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");
+	var nota;
+	nota=Math.floor(Math.random() * 10) + 1;
 
-}//FIN DE LA FUNCIÓN
+	if(nota >= 9)
+	{
+		alert("Su nota es " + nota + ": EXCELENTE");
+	}
+	else
+	{
+		if(nota >=4 && nota <=8)
+		{
+			alert("Su nota es " + nota +": APROBO");
+		}
+		else
+		{
+			alert("Su nota es " + nota + ": LA PROXIMA SERA");
+		}
+	}
+}
+

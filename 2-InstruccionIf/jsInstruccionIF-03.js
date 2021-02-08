@@ -1,6 +1,19 @@
+// ALARCON VICTOR ALEJANDRO
 function mostrar()
 {
 	//tomo la edad  
-	alert("ok");
+	var edad;
+	edad=document.getElementById("txtIdEdad").value;
+	edad=parseInt(edad);
 
+	if(edad>17)
+	{
+		alert("Es mayor de Edad");	
+	}
+	else
+	{
+		alert("Es menor de Edad");
+	}
+
+	
 }//FIN DE LA FUNCIÓN
